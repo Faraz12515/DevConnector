@@ -4,8 +4,8 @@
   "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Syed Faraz Ali",
   "license": "MIT",
@@ -17,6 +17,9 @@
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.15",
+    "body-parser": "^1.18.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
